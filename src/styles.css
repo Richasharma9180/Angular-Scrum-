@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import "../node_modules/font-awesome/css/font-awesome.css";
+
+div.container {
+    margin: 0px 40px;
+}
+
+mat-toolbar {
+    text-align: center;
+}
+
+form.normal-class {
+    margin: 10px;
+}
+
+.controler-container{
+    width: 100%;
+    padding: 5%;
+}
+
+.controler-container > * {
+    width: 100%;
+}
+
+.button-row button {
+    margin: 5px;
+}
+
+/* notification */
+snack-bar-container.success {
+    background-color: #5cb85c;
+    color : #fff;
+  }
+
+  snack-bar-container.warn {
+    background-color: #f99157;
+    color : #fff;
+  }

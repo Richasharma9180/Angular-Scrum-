@@ -1,0 +1,28 @@
+<!-- <div class="example-container mat-elevation-z8">
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+  
+    <mat-card >
+      <form [formGroup]="editForm" (ngSubmit)="onFormSubmit(editForm.value)">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="title" formControlName="title">
+          <mat-error>
+            <span *ngIf="!editForm.get('title').valid && editForm.get('prod_name').touched">Please enter Product Name</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="description" formControlName="description">
+          <mat-error>
+            <span *ngIf="!editForm.get('description').valid && editForm.get('description').touched">Please enter Product Description</span>
+          </mat-error>
+        </mat-form-field>
+        
+        <div class="button-row">
+          <button type="submit" [disabled]="!editForm.valid" mat-flat-button color="primary">save</button>
+        </div>
+      </form>
+    </mat-card>
+  </div>
+ -->
